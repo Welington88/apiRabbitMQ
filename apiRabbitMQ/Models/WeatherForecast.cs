@@ -1,6 +1,6 @@
 using System;
 
-namespace apiRabbitMQ{
+namespace apiRabbitMQ.Models{
     public class WeatherForecast
     {
         public DateTime Date { get; set; }
