@@ -23,7 +23,7 @@ namespace apiRabbitMQ.Controllers  {
                 using (var channel = connection.CreateModel()){
                     channel.QueueDeclare(
                         queue: QUEUE_NAME,
-                        durable: false,
+                        durable: true,
                         exclusive: false,
                         autoDelete: false,
                         arguments: null

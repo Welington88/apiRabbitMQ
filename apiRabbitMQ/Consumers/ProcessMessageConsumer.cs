@@ -33,7 +33,7 @@ namespace apiRabbitMQ.Consumers
                 _channel = _connection.CreateModel();
                 _channel.QueueDeclare(
                     queue: _configuration.Queue,
-                    durable: false,
+                    durable: true,
                     exclusive: false,
                     autoDelete: false,
                     arguments: null

@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "apiRabbitMQ", "apiRabbitMQ\apiRabbitMQ.csproj", "{1CD88442-412D-43C0-A068-CC10E2E0592C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "service", "service\service.csproj", "{0D72751F-05C6-469A-A2FB-33EC992471C3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{1CD88442-412D-43C0-A068-CC10E2E0592C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1CD88442-412D-43C0-A068-CC10E2E0592C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1CD88442-412D-43C0-A068-CC10E2E0592C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D72751F-05C6-469A-A2FB-33EC992471C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D72751F-05C6-469A-A2FB-33EC992471C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D72751F-05C6-469A-A2FB-33EC992471C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D72751F-05C6-469A-A2FB-33EC992471C3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

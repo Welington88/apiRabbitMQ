@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <UserSecretsId>dotnet-service-53183D70-0587-4AE0-B117-75302F9F034E</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\apiRabbitMQ\apiRabbitMQ.csproj" />
+  </ItemGroup>
+  
+</Project>
